@@ -1,9 +1,9 @@
-FROM openjdk
+FROM alpine
 
 WORKDIR /test
 
 COPY hesham.java /test
 
-RUN javac hesham.java
+
 
 CMD java hesham
